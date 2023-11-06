@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/category1_name">
+          <menu>
+              <item
+                  android:title="@string/home_name"
+                  android:icon="@drawable/baseline_home_24"
+                  android:id="@+id/home" />
+
+              <item
+                  android:title="@string/plans_name"
+                  android:icon="@drawable/baseline_calendar_view_month_24"
+                  android:id="@+id/plans" />
+
+              <item
+                  android:title="@string/calculators_name"
+                  android:icon="@drawable/baseline_calculate_24"
+                  android:id="@+id/calculators" />
+          </menu>
+    </item>
+
+    <item android:title="@string/account_string">
+        <menu>
+            <item
+                android:title="@string/account_name"
+                android:icon="@drawable/baseline_account_box_24"
+                android:id="@+id/account" />
+            <item
+                android:title="@string/exit_button_string"
+                android:icon="@drawable/lol"
+                android:id="@+id/exit" />
+        </menu>
+    </item>
+
+</menu>

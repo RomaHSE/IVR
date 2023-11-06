@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\activity_budget_plans.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\activity_budget_plans.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\activity_change_plan.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\activity_change_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\activity_add_spending.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\activity_add_spending.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\list_item.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\activity_calculators_list.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\activity_calculators_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\activity_log_in.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\activity_log_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\list_item_plan.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\list_item_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-mergeDebugResources-31:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\rroga\\.gradle\\daemon\\8.0\\com.example.moneyway.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.moneyway.app-mergeDebugResources-31:/layout/activity_budget_plans.xml",
+        "source": "com.example.moneyway.app-main-34:/layout/activity_budget_plans.xml"
+    }
+]

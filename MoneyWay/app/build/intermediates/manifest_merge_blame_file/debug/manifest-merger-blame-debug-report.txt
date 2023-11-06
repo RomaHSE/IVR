@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.moneyway"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.moneyway.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.moneyway.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:8:5-49:19
+21        android:allowBackup="true"
+21-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MoneyWay" >
+32-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:16:9-46
+33        <activity
+33-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:18:9-21:75
+34            android:name="com.example.moneyway.ChangePlanActivity"
+34-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:19:13-47
+35            android:exported="false"
+35-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:20:13-37
+36            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+36-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:21:13-72
+37        <activity
+37-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:22:9-25:75
+38            android:name="com.example.moneyway.AddSpendingActivity"
+38-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:23:13-48
+39            android:exported="false"
+39-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:24:13-37
+40            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+40-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:25:13-72
+41        <activity
+41-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:26:9-28:40
+42            android:name="com.example.moneyway.BudgetPlansActivity"
+42-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:27:13-48
+43            android:exported="false" />
+43-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:28:13-37
+44        <activity
+44-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:29:9-31:40
+45            android:name="com.example.moneyway.CalculatorsListActivity"
+45-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:30:13-52
+46            android:exported="false" />
+46-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:31:13-37
+47        <activity
+47-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:32:9-35:75
+48            android:name="com.example.moneyway.RegisterActivity"
+48-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:33:13-45
+49            android:exported="false"
+49-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:34:13-37
+50            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+50-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:35:13-72
+51        <activity
+51-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:36:9-39:75
+52            android:name="com.example.moneyway.LogInActivity"
+52-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:37:13-42
+53            android:exported="false"
+53-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:38:13-37
+54            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+54-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:39:13-72
+55        <activity
+55-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:40:9-48:20
+56            android:name="com.example.moneyway.MainActivity"
+56-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:41:13-41
+57            android:exported="true" >
+57-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:42:13-36
+58            <intent-filter>
+58-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:43:13-47:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:44:17-69
+59-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:44:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:46:17-77
+61-->C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:46:27-74
+62            </intent-filter>
+63        </activity>
+64
+65        <service
+65-->[androidx.room:room-runtime:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\4add31d7902bc33a3f3f620e98a17b15\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+66            android:name="androidx.room.MultiInstanceInvalidationService"
+66-->[androidx.room:room-runtime:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\4add31d7902bc33a3f3f620e98a17b15\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+67            android:directBootAware="true"
+67-->[androidx.room:room-runtime:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\4add31d7902bc33a3f3f620e98a17b15\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+68            android:exported="false" />
+68-->[androidx.room:room-runtime:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\4add31d7902bc33a3f3f620e98a17b15\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rroga\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rroga\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.example.moneyway.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rroga\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rroga\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rroga\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rroga\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\rroga\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rroga\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rroga\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\rroga\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+80        </provider>
+81    </application>
+82
+83</manifest>
