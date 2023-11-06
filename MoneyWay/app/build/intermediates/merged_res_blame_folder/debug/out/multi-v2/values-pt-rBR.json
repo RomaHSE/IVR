@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.moneyway.app-mergeDebugResources-30:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.example.moneyway.app-mergeDebugResources-31:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rroga\\.gradle\\caches\\transforms-3\\256c6597bc3e6f8192abd6f9b27a26ab\\transformed\\core-1.9.0\\res\\values-pt-rBR\\values-pt-rBR.xml",

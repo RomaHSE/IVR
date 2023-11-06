@@ -36,19 +36,15 @@ public final class ActivityLogInBinding implements ViewBinding {
   @NonNull
   public final Button regLinkButton;
 
-  @NonNull
-  public final TextView wrongDataError;
-
   private ActivityLogInBinding(@NonNull ConstraintLayout rootView, @NonNull Button logInButton,
       @NonNull TextView logInText, @NonNull EditText loginEdit, @NonNull EditText passwordEdit,
-      @NonNull Button regLinkButton, @NonNull TextView wrongDataError) {
+      @NonNull Button regLinkButton) {
     this.rootView = rootView;
     this.logInButton = logInButton;
     this.logInText = logInText;
     this.loginEdit = loginEdit;
     this.passwordEdit = passwordEdit;
     this.regLinkButton = regLinkButton;
-    this.wrongDataError = wrongDataError;
   }
 
   @Override
@@ -108,14 +104,8 @@ public final class ActivityLogInBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.wrong_data_error;
-      TextView wrongDataError = ViewBindings.findChildViewById(rootView, id);
-      if (wrongDataError == null) {
-        break missingId;
-      }
-
       return new ActivityLogInBinding((ConstraintLayout) rootView, logInButton, logInText,
-          loginEdit, passwordEdit, regLinkButton, wrongDataError);
+          loginEdit, passwordEdit, regLinkButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

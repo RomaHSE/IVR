@@ -31,6 +31,10 @@ public final class UserDao_Impl implements UserDao {
 
   private final SharedSQLiteStatement __preparedStmtOfUpdateOnlineSt;
 
+  private final SharedSQLiteStatement __preparedStmtOfDeleteByUid;
+
+  private final SharedSQLiteStatement __preparedStmtOfUpdateUserData;
+
   public UserDao_Impl(RoomDatabase __db) {
     this.__db = __db;
     this.__insertionAdapterOfUserInsertAsUser = new EntityInsertionAdapter<UserInsert>(__db) {
@@ -107,6 +111,20 @@ public final class UserDao_Impl implements UserDao {
         return _query;
       }
     };
+    this.__preparedStmtOfDeleteByUid = new SharedSQLiteStatement(__db) {
+      @Override
+      public String createQuery() {
+        final String _query = "DELETE FROM Users WHERE uid=?";
+        return _query;
+      }
+    };
+    this.__preparedStmtOfUpdateUserData = new SharedSQLiteStatement(__db) {
+      @Override
+      public String createQuery() {
+        final String _query = "UPDATE Users SET u_name=?, u_login=?, u_password=? WHERE uid=?";
+        return _query;
+      }
+    };
   }
 
   @Override
@@ -160,6 +178,57 @@ public final class UserDao_Impl implements UserDao {
     } finally {
       __db.endTransaction();
       __preparedStmtOfUpdateOnlineSt.release(_stmt);
+    }
+  }
+
+  @Override
+  public void deleteByUid(final int userId) {
+    __db.assertNotSuspendingTransaction();
+    final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteByUid.acquire();
+    int _argIndex = 1;
+    _stmt.bindLong(_argIndex, userId);
+    __db.beginTransaction();
+    try {
+      _stmt.executeUpdateDelete();
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+      __preparedStmtOfDeleteByUid.release(_stmt);
+    }
+  }
+
+  @Override
+  public void updateUserData(final String userName, final String userLogin,
+      final String userPassword, final int userId) {
+    __db.assertNotSuspendingTransaction();
+    final SupportSQLiteStatement _stmt = __preparedStmtOfUpdateUserData.acquire();
+    int _argIndex = 1;
+    if (userName == null) {
+      _stmt.bindNull(_argIndex);
+    } else {
+      _stmt.bindString(_argIndex, userName);
+    }
+    _argIndex = 2;
+    if (userLogin == null) {
+      _stmt.bindNull(_argIndex);
+    } else {
+      _stmt.bindString(_argIndex, userLogin);
+    }
+    _argIndex = 3;
+    if (userPassword == null) {
+      _stmt.bindNull(_argIndex);
+    } else {
+      _stmt.bindString(_argIndex, userPassword);
+    }
+    _argIndex = 4;
+    _stmt.bindLong(_argIndex, userId);
+    __db.beginTransaction();
+    try {
+      _stmt.executeUpdateDelete();
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+      __preparedStmtOfUpdateUserData.release(_stmt);
     }
   }
 

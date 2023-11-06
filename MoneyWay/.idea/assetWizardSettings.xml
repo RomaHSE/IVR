@@ -24,19 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\rroga\AppData\Local\Temp\baseline_dehaze_24.xml" />
-                                                <entry key="opacityPercent" value="80" />
-                                              </map>
-                                            </option>
-                                          </PersistentState>
-                                        </value>
-                                      </entry>
-                                      <entry key="clipartAsset">
-                                        <value>
-                                          <PersistentState>
-                                            <option name="values">
-                                              <map>
-                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/dehaze/baseline_dehaze_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\rroga\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -66,13 +54,6 @@
                                       </entry>
                                     </map>
                                   </option>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="outputName" value="ic_open_menu" />
-                                      <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="000000" />
-                                    </map>
-                                  </option>
                                 </PersistentState>
                               </value>
                             </entry>
@@ -98,6 +79,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\rroga\OneDrive\Изображения\kandinsky-download-1699227767612.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -125,6 +107,11 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="outputName" value="ic_launcher_2" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -295,11 +282,6 @@
                             </entry>
                           </map>
                         </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
-                          </map>
-                        </option>
                       </PersistentState>
                     </value>
                   </entry>
@@ -323,7 +305,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_back/baseline_arrow_back_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/logout/baseline_logout_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -334,8 +316,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="5a5a5a" />
-                            <entry key="opacityPercent" value="78" />
-                            <entry key="outputName" value="baseline_arrow_back_24" />
+                            <entry key="outputName" value="baseline_logout_24" />
                             <entry key="sourceFile" value="C:\Users\rroga\AndroidStudioProjects\MoneyWay" />
                           </map>
                         </option>

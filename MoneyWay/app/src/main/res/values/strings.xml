@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MoneyWay</string>
+    <string name="openmenu">openMenu</string>
+    <string name="category1_name">Основные функции</string>
+    <string name="home_name">Домой</string>
+    <string name="calculators_name">Калькуляторы</string>
+    <string name="plans_name">Планирование расходов</string>
+    <string name="account_name">Личный кабинет</string>
+    <string name="account_string">Аккаунт</string>
+    <string name="exit_button_string">Выход</string>
+
+    <string-array name="spendingTypes">
+        <item>Прибыль</item>
+        <item>Рестораны</item>
+        <item>Транспорт</item>
+        <item>Товары</item>
+        <item>Услуги</item>
+        <item>Переводы</item>
+        <item>Прочее</item>
+    </string-array>
+</resources>

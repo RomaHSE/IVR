@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\rroga\.gradle\caches\transforms-3\3d4b740dab056db995d284883c54aafa\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.room:room-ktx:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\2e066e985e8355f86cea7c7944b8d43a\transformed\room-ktx-2.5.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\4add31d7902bc33a3f3f620e98a17b15\transformed\room-runtime-2.5.2\AndroidManifest.xml:17:1-31:12
@@ -15,6 +15,8 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rroga\.gradle\caches
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\rroga\.gradle\caches\transforms-3\e6f534ac849b830fbe362816f59a9aae\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\rroga\.gradle\caches\transforms-3\da27ebe3522c52fd453cc688dee61238\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\0f5e832b92da87900caaa3efee8dcecc\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\9ad9749d33d2b344dd169b39f6ca14dd\transformed\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\506cb6f1e2f214b66a64cc924641cff6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\f6980ce487910f240a6ae651ca72cacf\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\0350c78cb71081ad1e631d25f3d152cd\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\rroga\.gradle\caches\transforms-3\79aee26986729c82f38b2f8aef89f6ba\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
@@ -28,7 +30,10 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rro
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rroga\.gradle\caches\transforms-3\686a06c38898cab4c33f1f40d64b3174\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\226f619b947b8e53de930e0b9ea42bd5\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rroga\.gradle\caches\transforms-3\51030ad6ab13d28be0df59ede82a6e0d\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\014d3e4f0811d88741d75fe1a67c3d48\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\rroga\.gradle\caches\transforms-3\cba0fb151d6e0c13415ea357e473a68a\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\64d308c5e0d564404a69b85673070b02\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\503c13143b4fab9e19f114d8886bdf27\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\ae9762d9e5cdf295faf747b9dcae48ea\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\7f8f2754b6f74961048ee3e9d4606b0b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -49,16 +54,16 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rroga\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\330486b78dc7c88a659f932492389125\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\4b74cb5652a2f2ead9a792f2de7644b6\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\rroga\.gradle\caches\transforms-3\c5ec658faf2b98f812e539eacbdac157\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
 	package
 		INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:4:5-51
@@ -66,7 +71,7 @@ INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\Android
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:2:11-69
@@ -75,7 +80,7 @@ ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidMan
 	dist:instant
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:6:18-37
 application
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:8:5-49:19
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:8:5-67:19
 MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\4add31d7902bc33a3f3f620e98a17b15\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\rroga\.gradle\caches\transforms-3\4add31d7902bc33a3f3f620e98a17b15\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\rroga\.gradle\caches\transforms-3\5a5c5e5c7026544de9ccf8875773e4ef\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
@@ -101,77 +106,113 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rroga\.gradle\cach
 	android:fullBackupContent
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:11:9-54
 	android:roundIcon
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:14:9-56
 	tools:targetApi
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:12:9-45
 	android:allowBackup
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:16:9-46
 	android:dataExtractionRules
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:10:9-65
-activity#com.example.moneyway.ChangePlanActivity
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:18:9-21:75
+activity#com.example.moneyway.EditUserDataActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:19:13-49
+activity#com.example.moneyway.ProfilePageActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:22:13-48
+activity#com.example.moneyway.SavingsCalculatorActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:24:9-27:72
+	android:exported
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:21:13-72
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:27:13-69
 	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:19:13-47
-activity#com.example.moneyway.AddSpendingActivity
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:22:9-25:75
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:25:13-54
+activity#com.example.moneyway.CreditCalculatorActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:28:9-31:72
 	android:exported
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:30:13-37
 	android:theme
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:25:13-72
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:31:13-69
 	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:23:13-48
-activity#com.example.moneyway.BudgetPlansActivity
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:26:9-28:40
-	android:exported
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:27:13-48
-activity#com.example.moneyway.CalculatorsListActivity
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:29:9-31:40
-	android:exported
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:30:13-52
-activity#com.example.moneyway.RegisterActivity
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:32:9-35:75
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:29:13-53
+activity#com.example.moneyway.ClassicCalculatorActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:32:9-35:72
 	android:exported
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:34:13-37
 	android:theme
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:35:13-72
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:35:13-69
 	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:33:13-45
-activity#com.example.moneyway.LogInActivity
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:36:9-39:75
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:33:13-54
+activity#com.example.moneyway.ChangePlanActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:36:9-39:72
 	android:exported
 		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:38:13-37
 	android:theme
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:39:13-72
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:39:13-69
 	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:37:13-42
-activity#com.example.moneyway.MainActivity
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:40:9-48:20
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:37:13-47
+activity#com.example.moneyway.AddSpendingActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:40:9-43:72
 	android:exported
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:43:13-69
 	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:41:13-41
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:41:13-48
+activity#com.example.moneyway.BudgetPlansActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:44:9-46:40
+	android:exported
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:45:13-48
+activity#com.example.moneyway.CalculatorsListActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:47:9-49:40
+	android:exported
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:48:13-52
+activity#com.example.moneyway.RegisterActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:50:9-53:72
+	android:exported
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:52:13-37
+	android:theme
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:53:13-69
+	android:name
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:51:13-45
+activity#com.example.moneyway.LogInActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:54:9-57:72
+	android:exported
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:56:13-37
+	android:theme
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:57:13-69
+	android:name
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:55:13-42
+activity#com.example.moneyway.MainActivity
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:58:9-66:20
+	android:exported
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:59:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:43:13-47:29
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:61:13-65:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:44:17-69
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:62:17-69
 	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:44:25-66
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:62:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:46:17-77
+ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:64:17-77
 	android:name
-		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:46:27-74
+		ADDED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml:64:27-74
 uses-sdk
 INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\AndroidManifest.xml
@@ -198,6 +239,10 @@ MERGED from [androidx.activity:activity:1.6.0] C:\Users\rroga\.gradle\caches\tra
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\rroga\.gradle\caches\transforms-3\da27ebe3522c52fd453cc688dee61238\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\0f5e832b92da87900caaa3efee8dcecc\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\0f5e832b92da87900caaa3efee8dcecc\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\9ad9749d33d2b344dd169b39f6ca14dd\transformed\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\9ad9749d33d2b344dd169b39f6ca14dd\transformed\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\506cb6f1e2f214b66a64cc924641cff6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\506cb6f1e2f214b66a64cc924641cff6\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\f6980ce487910f240a6ae651ca72cacf\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\f6980ce487910f240a6ae651ca72cacf\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\0350c78cb71081ad1e631d25f3d152cd\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -224,8 +269,14 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rroga\.gradle\caches\t
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\226f619b947b8e53de930e0b9ea42bd5\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rroga\.gradle\caches\transforms-3\51030ad6ab13d28be0df59ede82a6e0d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rroga\.gradle\caches\transforms-3\51030ad6ab13d28be0df59ede82a6e0d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\014d3e4f0811d88741d75fe1a67c3d48\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\014d3e4f0811d88741d75fe1a67c3d48\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\rroga\.gradle\caches\transforms-3\cba0fb151d6e0c13415ea357e473a68a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\rroga\.gradle\caches\transforms-3\cba0fb151d6e0c13415ea357e473a68a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\64d308c5e0d564404a69b85673070b02\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\64d308c5e0d564404a69b85673070b02\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\503c13143b4fab9e19f114d8886bdf27\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rroga\.gradle\caches\transforms-3\503c13143b4fab9e19f114d8886bdf27\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\rroga\.gradle\caches\transforms-3\ae9762d9e5cdf295faf747b9dcae48ea\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44

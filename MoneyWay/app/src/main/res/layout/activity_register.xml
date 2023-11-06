@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/reg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Регистрация"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_reg_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="text"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/reg_text"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/reg_text"
+        app:layout_constraintTop_toBottomOf="@+id/reg_text" />
+
+    <EditText
+        android:id="@+id/password_reg_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/login_reg_edit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/login_reg_edit"
+        app:layout_constraintTop_toBottomOf="@+id/login_reg_edit" />
+
+    <EditText
+        android:id="@+id/login_reg_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Логин"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/name_reg_edit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/name_reg_edit"
+        app:layout_constraintTop_toBottomOf="@+id/name_reg_edit" />
+
+    <EditText
+        android:id="@+id/password2_reg_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Повторите пароль"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/password_reg_edit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password_reg_edit"
+        app:layout_constraintTop_toBottomOf="@+id/password_reg_edit" />
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@color/main_theme"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Зарегистрироваться"
+        android:textColor="#FFFDFD"
+        app:layout_constraintEnd_toEndOf="@+id/password2_reg_edit"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/password2_reg_edit"
+        app:layout_constraintTop_toBottomOf="@+id/error_text" />
+
+    <Button
+        android:id="@+id/log_in_link_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/addi_theme"
+        android:text="Вход"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/reg_button"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/reg_button"
+        app:layout_constraintTop_toBottomOf="@+id/reg_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/error_text"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/password2_reg_edit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/password2_reg_edit"
+        app:layout_constraintTop_toBottomOf="@+id/password2_reg_edit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,66 +9,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2fc0b3-d8e5-43de-9d4a-9fc7718635d5" name="Changes" comment="" />
+    <list default="true" id="1cfd9db0-40d0-4237-a555-636f87f3b6b8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\rroga\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-b54e6610-E6U1zf._adb-tls-connect._tcp]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$/app">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MoneyWay" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MoneyWay" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MoneyWay" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MoneyWay" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-        <option value="resourceFile" />
-        <option value="Kotlin Class" />
-        <option value="layoutResourceFile" />
-        <option value="Kotlin Data Class" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,7 +27,7 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectId" id="2UQoy2dVKbuhhtrro67lGlMwDXU" />
+  <component name="ProjectId" id="2S3xoHklP8JF1VM0daTVKnBKt0m" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,35 +39,25 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/rroga/AndroidStudioProjects/MoneyWay/app/src/main/java&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="android.template.-541547372">
+    <key name="android.template.-1812508569">
       <recent name="com.example.moneyway" />
     </key>
-    <key name="android.template.-370233112">
+    <key name="android.template.1047322468">
       <recent name="com.example.moneyway" />
     </key>
-    <key name="android.template.1522421790">
+    <key name="android.template.-436783300">
       <recent name="com.example.moneyway" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rroga\AndroidStudioProjects\MoneyWay\app\src\main\java\com\example\moneyway\localDB" />
-    </key>
-    <key name="android.template.891693606">
-      <recent name="com.example.moneyway" />
-    </key>
-    <key name="android.template.-1969825124">
-      <recent name="com.example.moneyway" />
-    </key>
-    <key name="android.template.-1196350248">
+    <key name="android.template.-112123586">
       <recent name="com.example.moneyway" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="MoneyWay.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -178,11 +119,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df2fc0b3-d8e5-43de-9d4a-9fc7718635d5" name="Changes" comment="" />
-      <created>1692881415740</created>
+      <changelist id="1cfd9db0-40d0-4237-a555-636f87f3b6b8" name="Changes" comment="" />
+      <created>1688389238268</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692881415740</updated>
+      <updated>1688389238268</updated>
     </task>
     <servers />
   </component>

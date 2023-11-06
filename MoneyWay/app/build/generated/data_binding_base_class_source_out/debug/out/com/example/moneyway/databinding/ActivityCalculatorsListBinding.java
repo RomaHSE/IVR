@@ -4,6 +4,7 @@ package com.example.moneyway.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -25,11 +26,25 @@ public final class ActivityCalculatorsListBinding implements ViewBinding {
   @NonNull
   public final NavigationView navCalculators;
 
+  @NonNull
+  public final Button toClassicCalculatorButton;
+
+  @NonNull
+  public final Button toCreditCalculatorButton;
+
+  @NonNull
+  public final Button toSavingsCalculator;
+
   private ActivityCalculatorsListBinding(@NonNull DrawerLayout rootView,
-      @NonNull DrawerLayout drawerCalculators, @NonNull NavigationView navCalculators) {
+      @NonNull DrawerLayout drawerCalculators, @NonNull NavigationView navCalculators,
+      @NonNull Button toClassicCalculatorButton, @NonNull Button toCreditCalculatorButton,
+      @NonNull Button toSavingsCalculator) {
     this.rootView = rootView;
     this.drawerCalculators = drawerCalculators;
     this.navCalculators = navCalculators;
+    this.toClassicCalculatorButton = toClassicCalculatorButton;
+    this.toCreditCalculatorButton = toCreditCalculatorButton;
+    this.toSavingsCalculator = toSavingsCalculator;
   }
 
   @Override
@@ -67,8 +82,26 @@ public final class ActivityCalculatorsListBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.toClassicCalculatorButton;
+      Button toClassicCalculatorButton = ViewBindings.findChildViewById(rootView, id);
+      if (toClassicCalculatorButton == null) {
+        break missingId;
+      }
+
+      id = R.id.toCreditCalculatorButton;
+      Button toCreditCalculatorButton = ViewBindings.findChildViewById(rootView, id);
+      if (toCreditCalculatorButton == null) {
+        break missingId;
+      }
+
+      id = R.id.toSavingsCalculator;
+      Button toSavingsCalculator = ViewBindings.findChildViewById(rootView, id);
+      if (toSavingsCalculator == null) {
+        break missingId;
+      }
+
       return new ActivityCalculatorsListBinding((DrawerLayout) rootView, drawerCalculators,
-          navCalculators);
+          navCalculators, toClassicCalculatorButton, toCreditCalculatorButton, toSavingsCalculator);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

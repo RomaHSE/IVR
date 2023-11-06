@@ -5,11 +5,13 @@ import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
+import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.room.util.StringUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import java.lang.Class;
+import java.lang.Integer;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.StringBuilder;
@@ -27,6 +29,8 @@ public final class SpendingsDataDBDao_Impl implements SpendingsDataDBDao {
   private final EntityDeletionOrUpdateAdapter<SpendingsDataDB> __deletionAdapterOfSpendingsDataDB;
 
   private final EntityDeletionOrUpdateAdapter<User> __updateAdapterOfUser;
+
+  private final SharedSQLiteStatement __preparedStmtOfDeleteAllByUid;
 
   public SpendingsDataDBDao_Impl(RoomDatabase __db) {
     this.__db = __db;
@@ -101,6 +105,13 @@ public final class SpendingsDataDBDao_Impl implements SpendingsDataDBDao {
         stmt.bindLong(6, value.getUid());
       }
     };
+    this.__preparedStmtOfDeleteAllByUid = new SharedSQLiteStatement(__db) {
+      @Override
+      public String createQuery() {
+        final String _query = "DELETE FROM SpendingsDataDB WHERE s_user=?";
+        return _query;
+      }
+    };
   }
 
   @Override
@@ -136,6 +147,22 @@ public final class SpendingsDataDBDao_Impl implements SpendingsDataDBDao {
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
+    }
+  }
+
+  @Override
+  public void deleteAllByUid(final int uId) {
+    __db.assertNotSuspendingTransaction();
+    final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteAllByUid.acquire();
+    int _argIndex = 1;
+    _stmt.bindLong(_argIndex, uId);
+    __db.beginTransaction();
+    try {
+      _stmt.executeUpdateDelete();
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+      __preparedStmtOfDeleteAllByUid.release(_stmt);
     }
   }
 
@@ -293,6 +320,38 @@ public final class SpendingsDataDBDao_Impl implements SpendingsDataDBDao {
         final int _tmpS_user;
         _tmpS_user = _cursor.getInt(_cursorIndexOfSUser);
         _item = new SpendingsDataDB(_tmpSid,_tmpS_amount,_tmpS_type,_tmpS_date,_tmpS_description,_tmpS_user);
+        _result.add(_item);
+      }
+      return _result;
+    } finally {
+      _cursor.close();
+      _statement.release();
+    }
+  }
+
+  @Override
+  public List<Integer> getByTypeAndUid(final String spType, final int uId) {
+    final String _sql = "SELECT s_amount FROM SpendingsDataDB WHERE s_type=? AND s_user=?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 2);
+    int _argIndex = 1;
+    if (spType == null) {
+      _statement.bindNull(_argIndex);
+    } else {
+      _statement.bindString(_argIndex, spType);
+    }
+    _argIndex = 2;
+    _statement.bindLong(_argIndex, uId);
+    __db.assertNotSuspendingTransaction();
+    final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+    try {
+      final List<Integer> _result = new ArrayList<Integer>(_cursor.getCount());
+      while(_cursor.moveToNext()) {
+        final Integer _item;
+        if (_cursor.isNull(0)) {
+          _item = null;
+        } else {
+          _item = _cursor.getInt(0);
+        }
         _result.add(_item);
       }
       return _result;

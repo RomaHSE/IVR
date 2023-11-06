@@ -24,20 +24,37 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_2_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.MoneyWay" >
+        <activity
+            android:name="com.example.moneyway.EditUserDataActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.moneyway.ProfilePageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.moneyway.SavingsCalculatorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.moneyway.CreditCalculatorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.moneyway.ClassicCalculatorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.moneyway.ChangePlanActivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.moneyway.AddSpendingActivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.moneyway.BudgetPlansActivity"
             android:exported="false" />
@@ -47,11 +64,11 @@
         <activity
             android:name="com.example.moneyway.RegisterActivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.moneyway.LogInActivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.moneyway.MainActivity"
             android:exported="true" >

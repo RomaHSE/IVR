@@ -27,6 +27,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button addSpendingButton;
 
   @NonNull
+  public final Button deleteAllButton;
+
+  @NonNull
   public final DrawerLayout drawerMain;
 
   @NonNull
@@ -42,10 +45,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView totalAmount;
 
   private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull Button addSpendingButton,
-      @NonNull DrawerLayout drawerMain, @NonNull LinearLayout lLayout,
-      @NonNull NavigationView navMain, @NonNull ListView sList, @NonNull TextView totalAmount) {
+      @NonNull Button deleteAllButton, @NonNull DrawerLayout drawerMain,
+      @NonNull LinearLayout lLayout, @NonNull NavigationView navMain, @NonNull ListView sList,
+      @NonNull TextView totalAmount) {
     this.rootView = rootView;
     this.addSpendingButton = addSpendingButton;
+    this.deleteAllButton = deleteAllButton;
     this.drawerMain = drawerMain;
     this.lLayout = lLayout;
     this.navMain = navMain;
@@ -86,6 +91,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.deleteAllButton;
+      Button deleteAllButton = ViewBindings.findChildViewById(rootView, id);
+      if (deleteAllButton == null) {
+        break missingId;
+      }
+
       DrawerLayout drawerMain = (DrawerLayout) rootView;
 
       id = R.id.l_layout;
@@ -112,8 +123,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((DrawerLayout) rootView, addSpendingButton, drawerMain,
-          lLayout, navMain, sList, totalAmount);
+      return new ActivityMainBinding((DrawerLayout) rootView, addSpendingButton, deleteAllButton,
+          drawerMain, lLayout, navMain, sList, totalAmount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

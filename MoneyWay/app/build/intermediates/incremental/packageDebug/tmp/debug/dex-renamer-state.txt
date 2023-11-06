@@ -1,4 +1,4 @@
-#Wed Nov 01 19:18:52 MSK 2023
+#Mon Nov 06 17:27:49 MSK 2023
 base.0=C\:\\Users\\rroga\\AndroidStudioProjects\\MoneyWay\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\rroga\\AndroidStudioProjects\\MoneyWay\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\rroga\\AndroidStudioProjects\\MoneyWay\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

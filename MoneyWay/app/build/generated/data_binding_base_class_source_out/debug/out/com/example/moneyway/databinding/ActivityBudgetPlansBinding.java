@@ -122,7 +122,13 @@ public final class ActivityBudgetPlansBinding implements ViewBinding {
   public final TextView textView22;
 
   @NonNull
+  public final TextView textView28;
+
+  @NonNull
   public final TextView textView3;
+
+  @NonNull
+  public final TextView textView31;
 
   @NonNull
   public final TextView textView7;
@@ -146,8 +152,9 @@ public final class ActivityBudgetPlansBinding implements ViewBinding {
       @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView13,
       @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
       @NonNull TextView textView19, @NonNull TextView textView2, @NonNull TextView textView20,
-      @NonNull TextView textView21, @NonNull TextView textView22, @NonNull TextView textView3,
-      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
+      @NonNull TextView textView21, @NonNull TextView textView22, @NonNull TextView textView28,
+      @NonNull TextView textView3, @NonNull TextView textView31, @NonNull TextView textView7,
+      @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.addPlanButton = addPlanButton;
     this.budgetPlansDrawer = budgetPlansDrawer;
@@ -182,7 +189,9 @@ public final class ActivityBudgetPlansBinding implements ViewBinding {
     this.textView20 = textView20;
     this.textView21 = textView21;
     this.textView22 = textView22;
+    this.textView28 = textView28;
     this.textView3 = textView3;
+    this.textView31 = textView31;
     this.textView7 = textView7;
     this.textView8 = textView8;
     this.textView9 = textView9;
@@ -409,9 +418,21 @@ public final class ActivityBudgetPlansBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView28;
+      TextView textView28 = ViewBindings.findChildViewById(rootView, id);
+      if (textView28 == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView31;
+      TextView textView31 = ViewBindings.findChildViewById(rootView, id);
+      if (textView31 == null) {
         break missingId;
       }
 
@@ -439,7 +460,8 @@ public final class ActivityBudgetPlansBinding implements ViewBinding {
           planGoodsAm, planOtherAm, planProfitAm, planRestaurantsAm, planServAm, planSumAm,
           planTransactionAm, planTranspAm, plansText1, textView10, textView11, textView12,
           textView13, textView16, textView17, textView18, textView19, textView2, textView20,
-          textView21, textView22, textView3, textView7, textView8, textView9);
+          textView21, textView22, textView28, textView3, textView31, textView7, textView8,
+          textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

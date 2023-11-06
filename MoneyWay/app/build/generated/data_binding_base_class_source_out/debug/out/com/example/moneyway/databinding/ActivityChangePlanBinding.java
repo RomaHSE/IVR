@@ -49,6 +49,9 @@ public final class ActivityChangePlanBinding implements ViewBinding {
   public final EditText editPlanTransp;
 
   @NonNull
+  public final Button otherRemains;
+
+  @NonNull
   public final Button savePlanButton;
 
   private ActivityChangePlanBinding(@NonNull ConstraintLayout rootView,
@@ -56,7 +59,7 @@ public final class ActivityChangePlanBinding implements ViewBinding {
       @NonNull EditText editPlanOther, @NonNull EditText editPlanProf,
       @NonNull EditText editPlanRest, @NonNull EditText editPlanServ, @NonNull EditText editPlanSum,
       @NonNull EditText editPlanTransitions, @NonNull EditText editPlanTransp,
-      @NonNull Button savePlanButton) {
+      @NonNull Button otherRemains, @NonNull Button savePlanButton) {
     this.rootView = rootView;
     this.buttonToPlans = buttonToPlans;
     this.editPlanGoods = editPlanGoods;
@@ -67,6 +70,7 @@ public final class ActivityChangePlanBinding implements ViewBinding {
     this.editPlanSum = editPlanSum;
     this.editPlanTransitions = editPlanTransitions;
     this.editPlanTransp = editPlanTransp;
+    this.otherRemains = otherRemains;
     this.savePlanButton = savePlanButton;
   }
 
@@ -151,6 +155,12 @@ public final class ActivityChangePlanBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.otherRemains;
+      Button otherRemains = ViewBindings.findChildViewById(rootView, id);
+      if (otherRemains == null) {
+        break missingId;
+      }
+
       id = R.id.savePlanButton;
       Button savePlanButton = ViewBindings.findChildViewById(rootView, id);
       if (savePlanButton == null) {
@@ -159,7 +169,7 @@ public final class ActivityChangePlanBinding implements ViewBinding {
 
       return new ActivityChangePlanBinding((ConstraintLayout) rootView, buttonToPlans,
           editPlanGoods, editPlanOther, editPlanProf, editPlanRest, editPlanServ, editPlanSum,
-          editPlanTransitions, editPlanTransp, savePlanButton);
+          editPlanTransitions, editPlanTransp, otherRemains, savePlanButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

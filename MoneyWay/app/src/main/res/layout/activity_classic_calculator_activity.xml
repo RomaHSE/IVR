@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassicCalculatorActivity">
+
+    <ImageButton
+        android:id="@+id/buttonToClaculatorsList"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="Обратно"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:hint="1 число"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultText" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="2 число"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNumber1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber1"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumber1" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/addi_theme"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="+"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber1" />
+
+    <Button
+        android:id="@+id/buttonPercent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="%"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonPlus"
+        app:layout_constraintStart_toStartOf="@+id/buttonPlus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlus" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:text="-"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonPlus"
+        app:layout_constraintStart_toEndOf="@+id/buttonPlus"
+        app:layout_constraintTop_toTopOf="@+id/buttonPlus" />
+
+    <Button
+        android:id="@+id/buttonMultiplication"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:text="×"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonMinus"
+        app:layout_constraintStart_toEndOf="@+id/buttonMinus"
+        app:layout_constraintTop_toTopOf="@+id/buttonMinus" />
+
+    <Button
+        android:id="@+id/buttonDivision"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:text="÷"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonMultiplication"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumber2"
+        app:layout_constraintStart_toEndOf="@+id/buttonMultiplication"
+        app:layout_constraintTop_toTopOf="@+id/buttonMultiplication" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Результат:"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/resultText"
+        app:layout_constraintEnd_toEndOf="@+id/resultText"
+        app:layout_constraintStart_toStartOf="@+id/resultText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="(*1 число* % от *2 число*)"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonPercent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonPercent"
+        app:layout_constraintTop_toTopOf="@+id/buttonPercent"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <ImageButton
+        android:id="@+id/copyResult"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00F9F9F9"
+        android:contentDescription="Копировать результат"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_content_copy_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
