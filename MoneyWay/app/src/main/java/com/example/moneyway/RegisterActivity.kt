@@ -28,6 +28,7 @@ class RegisterActivity : AppCompatActivity() {
     lateinit var error_text: TextView
     lateinit var db: AppDatabase
     lateinit var uDao: UserDao
+    var regActChecks = regActChecks()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -61,7 +62,7 @@ class RegisterActivity : AppCompatActivity() {
             //проверяю, если поле непустые
             if(user_name != "" && user_login != "" && user_password != "" && user_password2 != "") {
                 //проверяю, если пароли совпадают
-                if (user_password == user_password2) {
+                if (regActChecks.checkPasswords(user_password, user_password2)) {
                     uDao.insert(UserInsert(user_name, user_login, user_password, true))
                     startActivity(Intent(this, LogInActivity::class.java))
                 } else {
@@ -79,6 +80,7 @@ class RegisterActivity : AppCompatActivity() {
             return
         }
     }
+
 
     fun onClickLogInLinkButton(view: View){
         startActivity(Intent(this, LogInActivity::class.java))

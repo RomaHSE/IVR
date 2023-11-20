@@ -32,6 +32,8 @@ class AddSpendingActivity : AppCompatActivity(){
     lateinit var sDao: SpendingsDataDBDao
     lateinit var uDao: UserDao
 
+    var addSpendingChecks = AddSpendingChecks()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityAddSpendingBinding.inflate(layoutInflater)
@@ -113,8 +115,12 @@ class AddSpendingActivity : AppCompatActivity(){
             Toast.makeText(applicationContext, "Не все поля заполнены или заполнено неправильными типами данных", Toast.LENGTH_LONG).show()
             return
         }
-
-        sDao.insert(SpendingsDataDBInsert(amount, spendingType, date, description, user))
+        if(addSpendingChecks.isFormatDateOk(date))
+            sDao.insert(SpendingsDataDBInsert(amount, spendingType, date, description, user))
+        else{
+            Toast.makeText(applicationContext, "Не верный формат даты", Toast.LENGTH_LONG).show()
+            return
+        }
         startActivity(Intent(this, MainActivity::class.java))
     }
 
