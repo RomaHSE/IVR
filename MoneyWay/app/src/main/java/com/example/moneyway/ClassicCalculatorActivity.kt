@@ -129,7 +129,14 @@ class ClassicCalculatorActivity : AppCompatActivity() {
             Toast.makeText(this, "Заполните все поля!", Toast.LENGTH_SHORT).show()
             return
         }
-        resultText.text = (number1Int.toDouble() / number2Int.toDouble()).toBigDecimal().setScale(4, RoundingMode.UP).toString()
+        if(number2Int != 0L) {
+            resultText.text = (number1Int.toDouble() / number2Int.toDouble()).toBigDecimal()
+                .setScale(4, RoundingMode.UP).toString()
+        }
+        else{
+            Toast.makeText(this, "Делить на ноль нельзя!", Toast.LENGTH_SHORT).show()
+            return
+        }
     }
     //функция для вычисления процента
     fun onClickPercentButton(view: View){
